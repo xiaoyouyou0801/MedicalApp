@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingLeft="10sp"
+    android:paddingTop="8sp">
+    <TextView
+        android:layout_width="100sp"
+        android:layout_height="match_parent"
+        android:text="器械名称"
+        android:textSize="15sp">
+    </TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/equipment_item_remain"
+            android:text="待租数量">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/equipment_item_recycle"
+            android:text="回收舱剩余数量">
+        </TextView>
+    </LinearLayout>
+</LinearLayout>
